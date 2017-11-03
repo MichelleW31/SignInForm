@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #000000;
+}
+
+div#welcome{
+    margin: 20px 0 20px 0;
+}
+
+div#welcome hr{
+    border: .3px solid #ffffff;
+    width: 15%;
+    margin:0 auto 10px;
+}
+
+div#welcome h1{
+    color:#ffffff;
+    text-align:center;
+    font-size:12px;
+    font-weight:100;
+}
+
+#signcontainer{
+    background-color:#ffffff;
+    width:25%;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+}
+
+#signin{
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    align-items:center
+}
+
+#signin h2{
+    margin:55px 0 15px 0;
+    font-size: 30px;
+}
+
+#signin h2:hover{
+    color:#4caf50;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    width:90%;
+
+}
+
+#signin form input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    margin-top: 15px;
+}
+
+button{
+    color:#ffffff;
+    font-size: 16px;
+    background-color:#000000;
+    border:none;
+    margin: 40px 0 40px 0;
+    padding: 15px 0 15px 0;
+    width:90%;
+}
+
+button:hover{
+    background-color:#4caf50;
+}
+
+#signin p{
+    color:#cccccc;
+    margin-bottom:40px;
+}
+
+#signin p a{
+    color:#cccccc;
+}
+
+#signin p a:hover{
+    color:#000000;
+}
+
+#loggedin{
+    background-color:#ffffff;
+    width:40%;
+    margin:0 auto 50px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    display:none;
+}
+
+#loggedin h2{
+     margin:55px 0 80px 0;
+     font-size: 30px;
+}
+
+#loggedin p{
+    margin-bottom: 10px;
+}
+
+#loggedin p a{
+    color:#cccccc;
+}
