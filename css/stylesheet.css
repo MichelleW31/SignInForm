@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #000000;
+    background-color: #e9e3e3;
 }
 
 div#welcome{
@@ -12,24 +12,29 @@ div#welcome{
 }
 
 div#welcome hr{
-    border: .3px solid #ffffff;
+    border: .3px solid #24313c;
     width: 15%;
     margin:0 auto 10px;
 }
 
 div#welcome h1{
-    color:#ffffff;
+    color:#24313c;
     text-align:center;
     font-size:12px;
     font-weight:100;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #signcontainer{
-    background-color:#ffffff;
+    background-color:#24313c;
     width:25%;
     margin:0 auto;
     display:flex;
     justify-content:center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 2px 56px -15px rgba(0,0,0,0.93);
+-moz-box-shadow: 0px 2px 56px -15px rgba(0,0,0,0.93);
+box-shadow: 0px 2px 56px -15px rgba(0,0,0,0.93);
 }
 
 #signin{
@@ -42,38 +47,53 @@ div#welcome h1{
 #signin h2{
     margin:55px 0 15px 0;
     font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
 }
 
 #signin h2:hover{
     color:#4caf50;
 }
 
+#signin p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:13px;
+}
+
 form{
     display:flex;
     flex-direction:column;
+    align-items:center;
     width:90%;
 
 }
 
 #signin form input{
     width: 100%;
-    border: none;
-    border-bottom: 1px solid #cccccc;
+    border: 1px solid #808080;
     margin-top: 15px;
+    background-color:#24313c;
+    padding:5px;
+}
+
+#signin form input[type=text]{
+    color:#fff;
 }
 
 button{
     color:#ffffff;
     font-size: 16px;
-    background-color:#000000;
+    background-color:#4caf50;
     border:none;
     margin: 40px 0 40px 0;
     padding: 15px 0 15px 0;
     width:90%;
+    
 }
 
 button:hover{
-    background-color:#4caf50;
+    background-color:#131d25;
+    border: 1px solid #fff;
 }
 
 #signin p{
@@ -86,22 +106,28 @@ button:hover{
 }
 
 #signin p a:hover{
-    color:#000000;
+    color:#4caf50;
 }
 
 #loggedin{
-    background-color:#ffffff;
+    background-color:#24313c;
     width:40%;
     margin:0 auto 50px;
     display:flex;
     align-items:center;
     flex-direction:column;
     display:none;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 2px 56px -15px rgba(0,0,0,0.93);
+-moz-box-shadow: 0px 2px 56px -15px rgba(0,0,0,0.93);
+box-shadow: 0px 2px 56px -15px rgba(0,0,0,0.93);
 }
 
 #loggedin h2{
      margin:55px 0 80px 0;
      font-size: 30px;
+     font-family: 'Open Sans', sans-serif;
+     color:#fff;
 }
 
 #loggedin p{
@@ -110,4 +136,10 @@ button:hover{
 
 #loggedin p a{
     color:#cccccc;
+    font-family: 'Open Sans', sans-serif;
+    font-size:13px;
+}
+
+#loggedin p a:hover{
+    color:#4caf50;
 }

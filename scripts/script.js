@@ -7,6 +7,17 @@ var user ={
   name:"Grant Chirpus"
 };
 
+function signOut(){
+  document.getElementsByTagName("input")[0].value = "";
+  document.getElementsByTagName("input")[1].value = "";
+  var hide = document.getElementById("loggedin");
+  var show = document.getElementById("signin");
+  var show2 = document.getElementById("welcome");
+  hide.style.display="none";
+  show.style.display="flex";
+  show2.style.display="block";
+}
+
 function checkLogin(){
   var e = document.getElementsByTagName("input")[0].value;
   var p = document.getElementsByTagName("input")[1].value;
